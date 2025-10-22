@@ -36,7 +36,7 @@ Packaging must communicate 50/25/10/15 brand pillar hierarchy through visual wei
 
 **Validation Elements (10% visual weight):**
 - Fortune 500 trust badge (small, professional, bottom corner)
-- "Trusted by 50+ Fortune 500 Companies" (small text, footer)
+- "Trusted by Google, Goldman Sachs, Deloitte, and leading corporates" (small text, footer)
 - Corporate gifting indicator (if applicable)
 
 **Transparency Elements (15% visual weight):**
@@ -97,7 +97,7 @@ Packaging must communicate 50/25/10/15 brand pillar hierarchy through visual wei
 - Quality selection process ("Top export grade, hand-inspected")
 
 **Right Side - Innovation Story (Innovation 25%):**
-- Cold chain journey ("Preserved at 4-8°C from harvest to delivery")
+- Cold chain journey ("Temperature-controlled from harvest to delivery")
 - Freshness benefit ("Arrives within 7 days of harvest")
 - Vacuum frying note (if applicable)
 - FSSC 22000 certification badge

@@ -33,7 +33,7 @@ Brand authority hub, quality education center, direct e-commerce, transparency s
 - **Subhead:** "Premium gourmet with innovation-led quality"
 - **Hero Image:** Jordan Medjoul close-up (textural, quality-focused)
 - **CTA:** "Taste the Difference" → Tasting counter store locator
-- **Supporting:** Customer rating (4.8/5, 173 reviews)
+- **Supporting:** Strong customer reviews and ratings
 
 **Quality Section (50% homepage content):**
 - **Origin Stories Grid:** 7 countries with photos, brief descriptions
@@ -75,7 +75,7 @@ Brand authority hub, quality education center, direct e-commerce, transparency s
 **Header:**
 - Product name (Playfair Display Bold, 36pt)
 - Origin badge (Jordan flag + "Medjoul from Jordan")
-- Customer rating (4.8/5 stars, number of reviews)
+- Customer rating display (if available from platform reviews)
 - Price (clear, no fake discounts)
 
 **Hero Image:**
@@ -90,7 +90,7 @@ Brand authority hub, quality education center, direct e-commerce, transparency s
 - **Why It's Exceptional:** "What makes Jordan Medjoul different..."
 
 **Innovation Benefits (25% content):**
-- **Cold Chain:** "Preserved at 4-8°C from harvest to delivery"
+- **Cold Chain:** "Temperature-controlled from harvest to delivery"
 - **Freshness:** "Arrives within 7 days of harvest"
 - **Vacuum Frying:** (if applicable) "70% less oil, natural taste preserved"
 - **Packaging:** "Resealable for maintained freshness"
@@ -123,10 +123,10 @@ Brand authority hub, quality education center, direct e-commerce, transparency s
   - Example: "Jordan Medjoul Dates | Top Export Grade | Cold Chain Fresh | QR Verified"
 - **Bullet Points:**
   - Point 1 (Quality): "Top export grade Medjoul dates from Jordan's finest palms"
-  - Point 2 (Innovation): "India's first cold chain for dates—preserved at 4-8°C"
+  - Point 2 (Innovation): "India's first cold chain for dates—temperature-controlled logistics"
   - Point 3 (Quality): "Rich caramel notes, soft texture, natural sweetness"
   - Point 4 (Transparency): "QR code verified—scan to see lab test reports"
-  - Point 5 (Validation): "Trusted by 50+ Fortune 500 companies for corporate gifting"
+  - Point 5 (Validation): "Trusted by Google, Goldman Sachs, Deloitte, and leading corporates"
 
 **A+ Content:**
 - **Module 1:** Origin story with Jordan date palm photography
@@ -174,7 +174,7 @@ Brand authority hub, quality education center, direct e-commerce, transparency s
 **Bio:**
 "Premium gourmet from world's finest origins 🌍
 Jordan Medjoul | Iranian Pistachios | India's first cold chain
-Trusted by 50+ Fortune 500 companies
+Trusted by Google, Goldman Sachs, Deloitte & leading corporates
 Scan QR → Verify quality 🔍
 [Link to website]"
 
@@ -225,7 +225,7 @@ Self-service platform for corporate buyers to explore gifting, customize hampers
 
 **Homepage:**
 - **Headline:** "Corporate Gifting Excellence Since 2013"
-- **Client Logos:** 50+ Fortune 500 companies
+- **Client Logos:** Google, Goldman Sachs, Deloitte, and 15+ leading corporates
 - **Testimonials:** Procurement decision-makers
 - **CTA:** "Request Corporate Catalog" or "Build Custom Hamper"
 

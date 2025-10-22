@@ -69,7 +69,7 @@ Visual proof of innovation that preserves quality. "From Jordan to Your Door in 
 **Content & Visualization:**
 - **Timeline:** Horizontal journey from left (Jordan) to right (Delhi)
 - **Day 1:** "Harvest in Jordan" (date palm photography)
-- **Day 2:** "Cold chain loading (4-8°C)" (temperature-controlled truck)
+- **Day 2:** "Cold chain loading (temperature-controlled)" (temperature-controlled truck)
 - **Day 3-6:** "Air freight + cold storage" (logistics visualization)
 - **Day 7:** "Arrives at Flyberry store" (store delivery)
 
@@ -211,7 +211,7 @@ Empower customers to verify quality themselves. Transparency celebrated, not hid
 - Customer tasting guidance ("Notice the texture difference?")
 
 **Innovation Knowledge (25% of training):**
-- Cold chain journey ("Preserved at 4-8°C from harvest to delivery")
+- Cold chain journey ("Temperature-controlled from harvest to delivery")
 - Vacuum frying technology ("70% less oil, natural taste preserved")
 - 7-country sourcing network ("Direct relationships, not commodity traders")
 - FSSC 22000 certification ("International food safety standards")
@@ -230,7 +230,7 @@ Empower customers to verify quality themselves. Transparency celebrated, not hid
 - **Greeting:** "Welcome to Flyberry. Have you tasted our Jordan Medjoul?"
 - **Quality Focus:** "We source top export grades from world's finest origins"
 - **Innovation Mention:** "Our cold chain preserves peak freshness"
-- **Validation (if B2B):** "We're trusted by 50+ Fortune 500 companies"
+- **Validation (if B2B):** "We're trusted by Google, Goldman Sachs, Deloitte, and leading corporates"
 - **Transparency Offer:** "Scan any QR code to verify your batch quality"
 
 ---

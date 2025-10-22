@@ -18,69 +18,94 @@
 
 ---
 
-## 📥 INPUT DATA SOURCES
+## 📥 INPUT DATA FOR HTML CREATION
 
-### Location
+### IMPORTANT: Two Separate Data Flows
+
+**There are TWO different data sources serving different purposes:**
+
+1. **PRIMARY INPUT** (for creating HTML): **`docs/*.md`** (70 markdown files in THIS repository)
+2. **VERIFICATION SOURCE** (for checking claims): **`flyberry_oct_19/input-data-sources/`** (Flyberry source PDFs)
+
+---
+
+### PRIMARY INPUT: Brand Package Markdown Files
+
+**Location:**
+```
+/Users/kalpeshjaju/Development/flyberry_22_oct_2025/docs/
+```
+
+**Structure (70 markdown files):**
+```
+docs/
+├── 00-START-HERE.md
+├── 01-our-origin-story.md
+├── 02-our-sourcing-philosophy.md
+├── 03-our-hero-products.md
+├── 04-our-complete-catalog.md
+├── 05-our-fortune-500-secret.md
+├── 06-our-brand-persona.md
+├── 07-our-brand-promise.md
+├── 08-current-positioning.md
+├── 09-current-customers.md
+├── 10-current-channels.md
+├── 11-current-performance.md
+├── ... (58 more markdown files)
+├── doc-30-content-strategy.md          ← Input for HTML conversion
+├── doc-31-brand-designer-brief.md
+├── doc-32-packaging-requirements.md
+├── doc-33-retail-experience.md
+├── doc-34-digital-strategy.md
+└── doc-35-staff-training.md
+```
+
+**These 70 markdown files ARE the actual input for HTML creation:**
+```
+docs/*.md → convert-doc-to-html.py → docs/*.html
+```
+
+**Origin of these files:**
+- Initial commit (Oct 22, 2025, 544bd86): 51 documents created by Claude Code
+- Subsequent commits: 7 additional documents added
+- Total: 70 markdown files containing the complete brand package
+
+---
+
+### VERIFICATION SOURCE: Flyberry Source Documents
+
+**Location:**
 ```
 /Users/kalpeshjaju/Development/flyberry_oct_19/input-data-sources/
 ```
 
-### Directory Structure
+**Purpose:** Used ONLY for verifying claims in the brand package (NOT for creating HTML)
+
+**Structure:**
 ```
 input-data-sources/
-├── 00-MASTER-INDEX.md                    # Central index of all data
-├── 00-MASTER-REFERENCE-COMPLETE.md       # Complete reference document
-├── 01-ORIGINAL-PDFs/                     # Original Flyberry PDFs (9 files)
+├── 01-ORIGINAL-PDFs/ (9 Flyberry source PDFs)
 │   ├── Flyberry-Gifting-Catalog.pdf
 │   ├── Flyberry-Retail-Catalog.pdf
 │   ├── Flyberry-Training-Catalog.pdf
 │   ├── Flyberry-Investor-Update-Q1-FY26.pdf
-│   ├── Flyberry-Investor-Update-Q4-FY25.pdf
-│   ├── Flyberry-Past-Brand-Guidelines.pdf
-│   ├── Flyberry-Hope-Gift-Box.pdf
-│   └── [2 more PDFs]
+│   └── ... (5 more PDFs)
 │
-├── 02-EXTRACTED-DATA/                    # Markdown extracts (8 files)
-│   ├── GIFTING-CATALOG-EXTRACTED.md      # 18 verified corporate clients
-│   ├── RETAIL-CATALOG-EXTRACTED.md       # 55+ SKUs, pricing ₹49-₹3,960
-│   ├── TRAINING-CATALOG-EXTRACTED.md     # Product specs, vacuum frying 70%
-│   ├── INVESTOR-UPDATE-Q1-FY26-EXTRACTED.md  # Revenue, metrics, growth
-│   ├── INVESTOR-UPDATE-Q4-FY25-EXTRACTED.md
-│   ├── PAST-BRAND-GUIDELINES-EXTRACTED.md    # Cold chain mentions
-│   ├── HOPE-GIFT-BOX-EXTRACTED.md
-│   └── README-EXTRACTED-DATA.md
-│
-├── 03-WEB-RESEARCH/                      # External research data
-│   └── [Market research, competitor analysis]
-│
-├── source-documents-pdf/                 # Additional PDFs (76 files)
-│
-├── COMPLETION-SUMMARY.md
-├── README.md
-├── TOPIC-INDEX.md                        # Topic-based index
-└── TOPIC-LIST.md                         # Complete topic list
+└── 02-EXTRACTED-DATA/ (8 markdown extracts)
+    ├── GIFTING-CATALOG-EXTRACTED.md      # 18 verified corporate clients
+    ├── RETAIL-CATALOG-EXTRACTED.md       # 55+ SKUs, pricing ₹49-₹3,960
+    ├── TRAINING-CATALOG-EXTRACTED.md     # Product specs, vacuum frying 70%
+    ├── INVESTOR-UPDATE-Q1-FY26-EXTRACTED.md  # Revenue, metrics, growth
+    └── ... (4 more extracts)
 ```
 
-### Data Consumption Method
-
-**How data flows from sources:**
-
-1. **PDF Extraction (Manual/Semi-Automated)**
-   - Original PDFs → Extracted markdown files
-   - Tool: PDF readers, manual extraction
-   - Output: `02-EXTRACTED-DATA/*.md` files
-   - Example: GIFTING-CATALOG.pdf → GIFTING-CATALOG-EXTRACTED.md
-
-2. **Data Verification (Claude Code)**
-   - Read extracted markdown files
-   - Cross-reference claims across multiple sources
-   - Verify metrics, client names, pricing
-   - Document: `SOURCE-VERIFICATION-FINAL.md`
-
-3. **Correction Application**
-   - False claims identified → Corrected in brand docs
-   - Example: "50+ Fortune 500" → "Google, Goldman Sachs, Deloitte, and 15+ leading corporates"
-   - Tool: `sed` batch replacements, manual edits
+**How these are used:**
+1. Claude Code reads extracted markdown files
+2. Cross-references claims in brand package (`docs/*.md` and `docs/*.html`)
+3. Identifies false claims (e.g., "50+ Fortune 500" → only 18 verified)
+4. Documents findings in `SOURCE-VERIFICATION-FINAL.md`
+5. Applies corrections to `docs/*.md` files
+6. Corrections then flow through to HTML conversion
 
 **Key Verified Data Points:**
 - ✅ 18 corporate clients (from GIFTING-CATALOG-EXTRACTED.md)
@@ -88,6 +113,57 @@ input-data-sources/
 - ✅ 46% Amazon repeat rate (from INVESTOR-UPDATE-Q1-FY26-EXTRACTED.md)
 - ✅ Pricing: ₹49-₹7,249 (from RETAIL-CATALOG-EXTRACTED.md)
 - ✅ Revenue: ₹35 Cr FY25, ₹9.7 Cr Q1 FY26 (from INVESTOR-UPDATE)
+
+---
+
+### Data Flow Clarification
+
+```
+ACTUAL FLOW FOR HTML CREATION:
+┌──────────────────────────────────────┐
+│  PRIMARY INPUT (THIS REPO)           │
+│  docs/*.md (70 markdown files)       │
+│  - Written by Claude Code            │
+│  - Contains brand package content    │
+└──────────────────────────────────────┘
+           ↓
+           ↓ [convert-doc-to-html.py]
+           ↓
+┌──────────────────────────────────────┐
+│  OUTPUT                              │
+│  docs/*.html (58 HTML files)         │
+└──────────────────────────────────────┘
+
+VERIFICATION FLOW (SEPARATE):
+┌──────────────────────────────────────┐
+│  VERIFICATION SOURCE (flyberry_oct_19)│
+│  02-EXTRACTED-DATA/*.md (8 files)    │
+│  - Source: Original Flyberry PDFs    │
+│  - Used to verify claims only        │
+└──────────────────────────────────────┘
+           ↓
+           ↓ [Claude reads & verifies]
+           ↓
+┌──────────────────────────────────────┐
+│  VERIFICATION REPORT                 │
+│  SOURCE-VERIFICATION-FINAL.md        │
+│  - False claims identified           │
+│  - Corrections documented            │
+└──────────────────────────────────────┘
+           ↓
+           ↓ [Apply corrections]
+           ↓
+┌──────────────────────────────────────┐
+│  CORRECTED INPUT                     │
+│  docs/*.md (70 files, corrected)     │
+│  → Then converted to HTML            │
+└──────────────────────────────────────┘
+```
+
+**IMPORTANT:**
+- `flyberry_oct_19/input-data-sources/` is NOT ingested into ChromaDB
+- `flyberry_oct_19/input-data-sources/` is NOT the input for HTML creation
+- It is ONLY used for claim verification by Claude Code
 
 ---
 

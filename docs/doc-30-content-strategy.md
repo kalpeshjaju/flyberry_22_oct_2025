@@ -225,7 +225,7 @@ Use Fortune 500 validation as quality proof, not luxury positioning
 - **Platforms:** Instagram (subtle), Website (footer), Packaging (back panel 10%)
 
 **Example Content:**
-- "Trusted by 50+ Fortune 500 Companies for Quality"
+- "Trusted by Leading Corporates Including Google, Goldman Sachs, Deloitte"
 - "The World's Most Demanding Buyers Validate Our Quality"
 - "If It's Good Enough for Google's Employees, It's Validated Quality"
 
@@ -356,7 +356,7 @@ Make transparency a competitive advantage and trust builder
 ### Strategic Guidelines:
 
 **1. Evidence Over Claims**
-- ✅ "8.5/10 product quality rating, 4.8/5 customer satisfaction"
+- ✅ "46% Amazon repeat rate vs 33.8% category average, high customer satisfaction"
 - ❌ "The best dates in India" (unverifiable superlative)
 
 **2. Quality Before Innovation**

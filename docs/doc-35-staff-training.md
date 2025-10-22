@@ -30,7 +30,7 @@ Every staff member must communicate brand pillar hierarchy (Quality 50%, Innovat
 - **Sensory Profile:** Rich caramel notes, soft texture, large size (5-7cm)
 - **Color:** Deep amber to brown
 - **Harvest Season:** September-November
-- **Storage:** Cold chain preserved (4-8°C)
+- **Storage:** Cold chain preserved (temperature-controlled)
 - **Price Range:** ₹599-₹999/kg
 - **Best For:** Premium gifting, special occasions, quality appreciation
 - **Customer Script:** "Our Jordan Medjoul are top export grade from Jordan Valley—notice the rich caramel notes and soft texture. We preserve them in cold chain from harvest to delivery."
@@ -107,7 +107,7 @@ Every staff member must communicate brand pillar hierarchy (Quality 50%, Innovat
 ### COLD CHAIN SYSTEM
 
 **What It Is:**
-- Temperature-controlled logistics (4-8°C maintained)
+- Temperature-controlled logistics maintained throughout supply chain
 - Industry-first for dates and nuts in India
 - From origin to delivery, entire journey cold chain
 
@@ -119,7 +119,7 @@ Every staff member must communicate brand pillar hierarchy (Quality 50%, Innovat
 
 **Journey Timeline:**
 - Day 1: Harvest in Jordan
-- Day 2: Cold chain loading (4-8°C)
+- Day 2: Cold chain loading (temperature-controlled)
 - Day 3-6: Air freight + cold storage
 - Day 7: Arrives at Flyberry store/warehouse
 - Customer receives: Within 7-10 days of harvest
@@ -128,7 +128,7 @@ Every staff member must communicate brand pillar hierarchy (Quality 50%, Innovat
 - Cold chain vs ambient comparison photos (dates quality difference)
 - Temperature logs (QR code accessible)
 
-**Customer Script:** "Flyberry is India's first with cold chain for dates and nuts. We preserve peak freshness from harvest to delivery—your Jordan Medjoul arrives within 7 days of harvest, maintained at 4-8°C the entire journey. That's why the taste and texture are exceptional."
+**Customer Script:** "Flyberry is India's first with cold chain for dates and nuts. We preserve peak freshness from harvest to delivery—your Jordan Medjoul arrives within 7 days of harvest, maintained in temperature-controlled conditions the entire journey. That's why the taste and texture are exceptional."
 
 ---
 
@@ -189,7 +189,7 @@ Every staff member must communicate brand pillar hierarchy (Quality 50%, Innovat
 4. **Reputation:** Corporate reputation depends on gift quality
 
 **Customer Script (B2C):**
-"We're trusted by 50+ Fortune 500 companies like Google and Goldman Sachs for corporate gifting. Their procurement standards validate our quality—if it's good enough for them, you can trust it."
+"We're trusted by leading corporates including Google, Goldman Sachs, Deloitte, Facebook, and Citibank for corporate gifting. Their procurement standards validate our quality—if it's good enough for them, you can trust it."
 
 **Customer Script (B2B):**
 "We've been corporate gifting partners for 10+ years with companies like Google, Goldman Sachs, and Deloitte. We understand Fortune 500 quality standards and customize hampers from ₹399 to ₹7,249."
@@ -268,17 +268,17 @@ Every staff member must communicate brand pillar hierarchy (Quality 50%, Innovat
 "Great question! Three things: First, we source only top export grades from premium origins like Jordan Valley. Second, we're India's first with cold chain for dates—preserves peak freshness from harvest to delivery. Third, every batch is lab-tested and QR-verifiable. You can taste the difference."
 
 **"Why are these more expensive?"**
-"Premium quality comes from premium sourcing and preservation. We choose top export grades (not commodity mix), cold chain preserve them (industry-first in India), and lab-test every batch. We're trusted by 50+ Fortune 500 companies for the same quality standards."
+"Premium quality comes from premium sourcing and preservation. We choose top export grades (not commodity mix), cold chain preserve them (industry-first in India), and lab-test every batch. We're trusted by leading corporates including Google and Goldman Sachs for the same quality standards."
 
 **"How do I know they're fresh?"**
-"Scan the QR code on any product—you'll see your batch's cold chain journey. We preserve at 4-8°C from harvest to delivery. Jordan Medjoul arrives within 7 days of harvest. You'll also see the lab test report showing freshness indicators."
+"Scan the QR code on any product—you'll see your batch's cold chain journey. We preserve in temperature-controlled conditions from harvest to delivery. Jordan Medjoul arrives within 7 days of harvest. You'll also see the lab test report showing freshness indicators."
 
 ---
 
 ### CORPORATE SALES
 
 **"We need corporate gifting for 500 employees."**
-"Perfect! We're trusted by 50+ Fortune 500 companies for corporate gifting. We can customize hampers from ₹399 to ₹7,249 per unit. Would you like to see our corporate catalog, or shall I connect you with our B2B team for a custom quote?"
+"Perfect! We're trusted by leading corporates including Google, Goldman Sachs, and Deloitte for corporate gifting. We can customize hampers from ₹399 to ₹7,249 per unit. Would you like to see our corporate catalog, or shall I connect you with our B2B team for a custom quote?"
 
 **"What's your corporate gifting process?"**
 "Simple: You choose budget range, we show premium options, you customize with your logo/message, we deliver on time. We've handled orders from 100 to 10,000+ units for companies like Google and Goldman Sachs. Quality and consistency are guaranteed."
